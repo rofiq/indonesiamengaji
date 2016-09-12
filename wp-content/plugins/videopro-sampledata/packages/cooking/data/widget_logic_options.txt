@@ -1,0 +1,14 @@
+[START=WIDGET LOGIC OPTIONS]
+text-6	"is_page(\\'home-cooking\\')"
+popular_posts_id-3	""
+popular_posts_id-4	""
+popular_posts_id-2	""
+top-channel-2	""
+text-4	""
+nav_menu-2	""
+actor-listing-2	""
+text-7	""
+actor-listing-3	""
+text-3	""
+text-8	""
+[STOP=WIDGET LOGIC OPTIONS]

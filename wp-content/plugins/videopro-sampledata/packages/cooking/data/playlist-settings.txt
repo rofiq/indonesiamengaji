@@ -1,0 +1,1 @@
+a:5:{s:21:"enable_video_playlist";s:1:"1";s:13:"playlist-slug";s:8:"playlist";s:16:"playlist_sidebar";s:5:"right";s:27:"enable_containing_playlists";s:1:"0";s:28:"containing_playlists_heading";s:25:"Playlists Have This Video";}

@@ -1,0 +1,67 @@
+<?xml version='1.0'?> 
+<options>
+	<tab label="General" icon="cog">
+		<group>
+			<fields label="Enable Video Channels">
+				<option id="enable_video_channels" type="select" default="1" tooltip="" >
+					<select value="1" text="On"/>
+					<select value="0" text="Off"/>
+				</option>
+				<description>Enable Video Channels feature</description>
+			</fields>
+			<fields label="Channel slug">
+				<option id="channel-slug" type="textfield" width="100" default="channel"></option>
+				<description>Change single Channel slug. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+			<fields label="Single Channel Sidebar">
+				<option id="channel_sidebar" type="select" default="right" tooltip="" >
+					<select value="both" text="Left &amp; Right"/>
+					<select value="left" text="Left"/>
+					<select value="right" text="Right"/>
+					<select value="full" text="Hidden"/>
+				</option>
+				<description>Choose sidebar layout for Single Channel page</description>
+			</fields>
+			<fields label='Enable "Channels Have This Video" box'>
+				<option id="enable_containing_channels" type="select" default="0" tooltip="" >
+					<select value="1" text="On"/>
+					<select value="0" text="Off"/>
+				</option>
+				<description>Enable "Channels have this video" box in Single Video page</description>
+			</fields>
+			<fields label='"Channels Have This Video" heading'>
+				<option id="containing_channels_heading" type="textfield" width="300" default="Channels Have This Video"></option>
+				<description>Heading of the box "Channels Have This Video"</description>
+				<condition expression="enable_containing_channels:is(1)"/>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Subscription" icon="eye">
+		<group label="Subscribe Button" icon="play-circle">
+			<fields label="Action">
+				<option id="subscribe-button-action" type="select" default="default">
+					<select value="default" text="Require Logging In. Use default WordPress Login page"/>
+					<select value="custom_url" text="Require Logging In. Use custom Login URL"/>
+					<select value="popup" text="Require Loggin In. Open popup"/>
+				</option>
+				<description>Choose action for "Subscribe Button"</description>
+			</fields>
+			<fields label="Custom URL">
+				<option id="subscribe-button-url" type="textfield" width="500" default=""></option>
+				<condition expression="subscribe-button-action:is(custom_url)"/>
+				<description>Enter custom Login URL if users need to login</description>
+			</fields>
+			<fields label="Popup Content">
+				<option id="subscribe-button-popup" type="textarea" cols="100" rows="10" default=""></option>
+				<condition expression="subscribe-button-action:is(popup)"/>
+				<description>Enter HTML content for the Login Popup. Using shortcode is possible</description>
+			</fields>
+		</group>
+		<group label="Subscribed-Channels Page" icon="plus-square">
+			<fields label="Number of items per page">
+				<option id="subscreibed_item_page" type="textfield" width="100" default="3"></option>
+				<description></description>
+			</fields>
+		</group>
+	</tab>
+</options>

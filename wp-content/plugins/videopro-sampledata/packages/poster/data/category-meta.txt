@@ -1,0 +1,1 @@
+a:4:{s:6:"action";a:0:{}s:6:"comedy";a:0:{}s:5:"drama";a:0:{}s:6:"others";a:1:{s:9:"cat_icon_";s:9:"fa fa-eye";}}

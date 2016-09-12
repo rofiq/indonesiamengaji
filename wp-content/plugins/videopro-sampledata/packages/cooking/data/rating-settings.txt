@@ -1,0 +1,1 @@
+a:6:{s:12:"tmr_criteria";s:24:"Time, Quality, Aesthetic";s:12:"tmr_position";s:6:"bottom";s:9:"tmr_float";s:5:"block";s:9:"tmr_title";s:6:"Review";s:13:"tmr_user_rate";s:3:"all";s:13:"tmr_rate_type";s:5:"point";}

@@ -1,0 +1,1 @@
+[gallery link="file" size="large" columns="4"]

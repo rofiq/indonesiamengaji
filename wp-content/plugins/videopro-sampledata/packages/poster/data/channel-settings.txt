@@ -1,0 +1,1 @@
+a:8:{s:21:"enable_video_channels";s:1:"1";s:12:"channel-slug";s:7:"channel";s:15:"channel_sidebar";s:5:"right";s:26:"enable_containing_channels";s:1:"0";s:23:"subscribe-button-action";s:7:"default";s:20:"subscribe-button-url";s:0:"";s:22:"subscribe-button-popup";s:0:"";s:21:"subscreibed_item_page";s:1:"3";}

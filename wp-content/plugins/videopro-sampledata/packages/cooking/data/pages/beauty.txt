@@ -1,0 +1,1 @@
+[vc_row][vc_column][ct_blog title="LASTEST NEWS" style="4" count="10"][/vc_column][/vc_row]
